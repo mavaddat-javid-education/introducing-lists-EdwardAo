@@ -12,3 +12,6 @@ print("Sorry they can't come for dinner:",guest_removed)
 guest_removed = guests.pop()
 print('Please come over for dinner',guests[0])
 print('Please come over for dinner',guests[1])
+del guests[0]
+del guests[0]
+print(guests)
