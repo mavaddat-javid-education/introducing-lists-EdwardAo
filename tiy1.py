@@ -1,3 +1,4 @@
-First_name='Joe'
-Second_name='Mike'
-Third_Name='Fred'
+names=['Fred','Joe','Mike']
+print(names[0])
+print(names[1])
+print(names[2])

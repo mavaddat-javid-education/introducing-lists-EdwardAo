@@ -1,6 +1,4 @@
-First_name='Joe'
-Second_name='Mike'
-Third_Name='Fred'
-print('Hey what is up',First_name)
-print("How's life",Second_name)
-print('Is that you',Third_Name)
+names=['Fred','Joe','Mike']
+print('How was your day',names[0])
+print('How was your day',names[1])
+print('How was your day',names[2])
