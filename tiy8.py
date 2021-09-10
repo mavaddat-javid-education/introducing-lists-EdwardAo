@@ -1,0 +1,15 @@
+places=['tokyo','germany','russia','france','chicago','mexico','canada','brazil','china','japan','estonia','panama','samoa','luxemborg','andorra','united states of america','chile','argentia','marshall islands','belize','australia','austria','spain','gibralter','jersey','uganda','sudan','egypt','namibia','algeria','paraguay','iran','iraq','saudi arabia','yemen','zimbabwe']
+print("1. Places:",places)
+print("Sorted():",sorted(places))
+print("2. Places:",places)
+print("Sorted(reverse=True)",sorted(places,reverse=True))
+print("3. Places:",places)
+places.reverse()
+print("4. Places:",places)
+places.reverse()
+print("5. Places:",places)
+places.sort()
+print("6. Places:",places)
+places.sort(reverse=True)
+print("7. PLaces:",places)
+# The way sorted works is that it belongs to the list you want sorted, but it returns a new list and does not modify the original list.
